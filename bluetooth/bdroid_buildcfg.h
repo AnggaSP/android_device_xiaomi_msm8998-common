@@ -27,9 +27,9 @@ static inline const char* BtmGetDefaultName()
     property_get("ro.product.device", product_device, "");
 
     if (strstr(product_device, "chiron"))
-        return "Xiaomi Mi MIX 2";
+        return "Mi MIX 2";
     if (strstr(product_device, "sagit"))
-        return "Xiaomi MI 6";
+        return "Mi 6";
 
     // Fallback to ro.product.model
     return "";
