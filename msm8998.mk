@@ -339,7 +339,6 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # RIL
 PRODUCT_PACKAGES += \
-    libril-wrapper \
     librmnetctl
 
 # Seccomp policy
