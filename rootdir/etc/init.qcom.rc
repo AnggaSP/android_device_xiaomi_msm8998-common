@@ -155,9 +155,9 @@ on boot
     mkdir /dev/socket/netmgr 0750 radio radio
 
     # Touchscreen
-    chown system system /proc/touchpanel/double_tap_enable
+    chown system system /dev/input/event1
     chown system system /proc/touchpanel/reversed_keys_enable
-    chmod 0660 /proc/touchpanel/double_tap_enable
+    chmod 0660 /dev/input/event1
     chmod 0660 /proc/touchpanel/reversed_keys_enable
 
     # Assign TCP buffer thresholds to be ceiling value of technology maximums

@@ -55,3 +55,4 @@ done
 echo "cpufreq" > /sys/class/devfreq/soc:qcom,mincpubw/governor
 
 setprop vendor.post_boot.parsed 1
+setprop vendor.powerhal.init 1
