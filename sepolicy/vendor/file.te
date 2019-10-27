@@ -2,7 +2,8 @@
 type fingerprint_persist_file, file_type;
 type fingerprint_sysfs, sysfs_type, fs_type;
 
-# WLAN
+# Stats
+type debugfs_rpm, debugfs_type, fs_type;
 type debugfs_wlan, debugfs_type, fs_type;
 
 # Thermal engine
