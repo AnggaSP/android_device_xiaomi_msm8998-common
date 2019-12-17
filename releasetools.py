@@ -18,11 +18,13 @@ import common
 import re
 
 def FullOTA_Assertions(info):
-  AddTrustZoneAssertion(info, info.input_zip)
+  input_zip = info.input_zip
+  AddTrustZoneAssertion(info, input_zip)
   return
 
 def IncrementalOTA_Assertions(info):
-  AddTrustZoneAssertion(info, info.target_zip)
+  input_zip = info.target_zip
+  AddTrustZoneAssertion(info, input_zip)
   return
 
 def AddTrustZoneAssertion(info, input_zip):
