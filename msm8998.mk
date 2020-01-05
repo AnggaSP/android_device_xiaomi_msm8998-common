@@ -105,6 +105,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libaudio-resampler \
+    libhdmiedid \
     libhfp \
     libqcompostprocbundle \
     libqcomvisualizer \
