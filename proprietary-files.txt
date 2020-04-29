@@ -479,6 +479,10 @@ vendor/lib64/libmlipay@1.1.so
 # NFC firmware
 vendor/lib/libpn553_fw.so
 
+# Perf - from taimen QQ2A.200405.005
+vendor/lib/libqti-perfd-client.so|c1c7482b58fbe012f934b54bea78ff52068ea530
+vendor/lib64/libqti-perfd-client.so|d16c17427d6383368d035c9bf028630837b3b969
+
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
