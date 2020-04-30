@@ -51,6 +51,9 @@ using android::hardware::google::pixel::powerstats::StateResidencyConfig;
 using android::hardware::google::pixel::powerstats::WlanStateResidencyDataProvider;
 
 int main(int /* argc */, char ** /* argv */) {
+    // Vendor HAL should use vndbinder 
+    android::ProcessState::initWithDriver("/dev/vndbinder");
+
     ALOGI("power.stats service 1.0 is starting.");
 
     bool isDebuggable = android::base::GetBoolProperty("ro.debuggable", false);
