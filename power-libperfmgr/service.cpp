@@ -36,7 +36,7 @@ using android::hardware::power::V1_3::implementation::Power;
 int main(int /* argc */, char ** /* argv */) {
     ALOGI("Power HAL Service 1.3 for Xiaomi MSM8998 is starting.");
 
-    android::sp<IPower> service = new Power();
+    android::sp<Power> service = new Power();
     if (service == nullptr) {
         ALOGE("Can not create an instance of Power HAL Iface, exiting.");
         return 1;
@@ -44,7 +44,7 @@ int main(int /* argc */, char ** /* argv */) {
 
     configureRpcThreadpool(1, true /*callerWillJoin*/);
 
-    status_t status = service->registerAsService();
+    status_t status = service->registerAsSystemService();
     if (status != OK) {
         ALOGE("Could not register service for Power HAL Iface (%d), exiting.", status);
         return 1;
