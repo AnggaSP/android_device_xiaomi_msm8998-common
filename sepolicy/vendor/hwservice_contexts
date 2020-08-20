@@ -12,3 +12,6 @@ vendor.nxp.nxpnfc::INxpNfc                                    u:object_r:nxpnfc_
 
 # Mlipay
 vendor.xiaomi.hardware.mlipay::IMlipayService                               u:object_r:hal_mlipay_hwservice:s0
+
+# Telephony
+vendor.qti.hardware.slmadapter::ISlmAdapter                   u:object_r:hal_slmadapter_hwservice:s0
