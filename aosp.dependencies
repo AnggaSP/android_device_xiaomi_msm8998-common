@@ -8,7 +8,7 @@
     "repository" : "vendor_xiaomi_msm8998-common",
     "target_path": "vendor/xiaomi/msm8998-common",
     "branch": "ten",
-    "remote": "pixel-devices-bitbucket"
+    "remote": "pixel-devices-blobs"
   },
   {
     "repository": "AnggaSP/clang",
