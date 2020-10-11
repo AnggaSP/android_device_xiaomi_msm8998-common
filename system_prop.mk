@@ -17,6 +17,7 @@
 # Audio
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.bluetooth.a2dp_offload.disabled=false \
+    persist.bluetooth.a2dp_offload.cap=sbc-aptx-aptxhd-aac \
     ro.bluetooth.a2dp_offload.supported=true
 
 # Bluetooth
